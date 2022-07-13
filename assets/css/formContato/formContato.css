@@ -13,26 +13,4 @@
 .formcontato__text{
     padding-left: 1rem;
 }
-.formcontato__form{
-    display: flex;
-    flex-direction: column;
-}
-.formcontato__input,
-.formcontato__textarea{
-    border-width: 0 0 4px;
-    margin: 1.2rem 0;
-    padding: 1rem;
-    outline: none;
-    width: 100%;
-}
-.formcontato__input:focus{
-    border-color: var(--primary-color);
-}
-.formcontato__botao{
-    background-color: var(--third-color);
-    border: none;
-    color: var(--primary-color);
-    margin-top:.75rem;
-    padding: 1rem;
-    width: 12rem;
-}
+

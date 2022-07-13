@@ -1,0 +1,44 @@
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+}
+.formcontato__input,
+.formcontato__textarea{
+    border-width: 0 0 4px;
+    height: 3rem;
+    margin: 1.2rem 0;
+    outline: none;
+    padding: 1rem;
+    padding-bottom: 0;
+    width: 100%;  
+}
+.formcontato__textarea{
+    height: auto;
+    padding-top: 1.5rem;
+}
+.formcontato__input:focus{
+    border-color: var(--primary-color);
+}
+.formcontato__botao{
+    background-color: var(--third-color);
+    border: none;
+    color: var(--primary-color);
+    margin-top:.75rem;
+    padding: 1rem;
+    width: 12rem;
+}
+.formcontato__item {
+    position: relative;
+    display: flex;
+    align-content: space-between;
+}
+label {
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+    margin-bottom: 1rem;
+}
+.formcontato__item:focus-within label {
+    color: var(--primary-color);
+       
+}
