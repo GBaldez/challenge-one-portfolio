@@ -6,13 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Folha de estilo de CSS Linkado -->
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/hero/title.css">
+    <link rel="stylesheet" href="./assets/css/hero/title-profile.css">
+    <link rel="stylesheet" href="./assets/css/hero/title-text.css">
+    <link rel="stylesheet" href="./assets/css/hero/title-network.css">
+    <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="stylesheet" href="./assets/css/about/about-title.css">
+    <link rel="stylesheet" href="./assets/css/about/about-paragraph.css">
+    <link rel="stylesheet" href="./assets/css/about/about-container.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills-title.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills-box.css">
+    <link rel="stylesheet" href="./assets/css/hobbies/hobbies.css">
+    <link rel="stylesheet" href="./assets/css/hobbies/hobbies-title.css">
+    <link rel="stylesheet" href="./assets/css/hobbies/hobbies-box.css">
+    <link rel="stylesheet" href="./assets/css/academic/academic.css">
+    <link rel="stylesheet" href="./assets/css/academic/academic-title.css">
+    <link rel="stylesheet" href="./assets/css/academic/academic-courses.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- Fonte do Projeto Raleway -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     
     <title>Portifólio Gabriel Badez</title>
 </head>
@@ -27,91 +43,130 @@
         <nav>
             <ul class="menu__list">
                 <li class="menu__list__item"><a href="#sobremim">Sobre mim</a></li>
-                <li class="menu__list__item"><a href="#skills">Soft Skills</a></li>
+                <li class="menu__list__item"><a href="#skills">Skills</a></li>
                 <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
                 <li class="menu__list__item"><a href="#formacao">Formações e Cursos</a></li>
                 <li class="menu__list__item"><a href="#xp">Experiência</a></li>
                 <li class="menu__list__item"><a href="#contato">Contato</a></li>
             </ul>
-            <li class="menu__list__item__contato"><a href="#contato">contato@fulana.com</a></li>
         </nav>
     </section>
-
 <!-- Sessão de Header/Title/Hero -->
     <section class="title">
         <div class="title__div">
-            <img class="title__profile" src="assets\profile.png">
+            <div class="title__profile title__profile--pic"></div>
+            <!-- <img class="title__profile" src="assets/img/me.jpg" alt="Foto de perfil de Gabriel Baldez"> -->
             <div class="title__container" id="#sobremim">
-                <h2 class="title__bio">Olá, meu nome é Fulana de Tal e construo páginas web</h2>
-                <h3 class="title__subsection">Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na Alura.</h3>
+                <h2 class="title__bio">Olá,<br> meu nome é <span>Gabriel Baldez</span><br> e construo páginas web</h2>
+                <h3 class="title__subsection">Estou sempre buscando conhecimento e atualmente estou participando no projeto Oracle ONE na Alura.</h3>
                 <ul class="title__network">
                     <!-- Ponha os links de suas redes sociais favoritas -->
-                    <li class="title__network__item"><a href="">Github <img src="assets\arrow.png"> </a></li>
-                    <li class="title__network__item"><a href="">Linkedin <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Curriculo <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://github.com/GBaldez">Github <img src="assets/img/arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/gabriel-baldez/">Linkedin <img src="assets/img/arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://www.instagram.com/gbaeldaeg/">Instagram <img src="assets/img/arrow.png"></a></li>
+                    <!-- open new tab to vizualize pdf -->
+                    <li class="title__network__item"><a href="assets/cv.pdf" target="_blank">Currículo <img src="assets/img/arrow.png"></a></li>
                 </ul>
             </div>
         </div>
+        <canvas id="canvas"></canvas>
     </section>
 
         <!-- Sessão sobre mim -->
-    <section class="about">
+    <section id="sobremim" class="about">
         <div class="about__container">
             <h3 class="about__title">Sobre mim</h3>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. </p>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+            <p class="about__paragraph">Tenho 34 anos, sou brasileiro. Meu primeiro contato com desenvolvimento web foi em 2013 movido pela curiosidade sobre como os sites eram criados e há um pouco mais de um ano tenho me dedicado aos estudos para me tornar um profissional na área de fato.</p>
+            <p class="about__paragraph">Resumidamente, me empenhei em aprender o desenvolvimento full-stack, para isso comecei pelo back-end com JavaScript, Node.JS e MongoDB. Nesse período também estudei Python e PostgreSQL. E este ano decidi me aprofundar no front-end comecei estudando ReactJS e TypeScript e agora estou participando do programa ONE e melhorando diariamente minhas habilidades como desenvolvedor.</p>
             <!-- Caso queira colocar sua própria assinatura, insira aqui! -->
-            <img src="assets\signature.png">
+            <!-- <img src="assets\signature.png"> -->
         </div>
     </section>
 
 <!-- Sessão de Skills/Habilidades -->
-    <section class="skills">
-        <h3 class="skills__title" id="skills">Skills</h3>
+    <section id="skills" class="skills">
+        <h3 class="skills__title" id="skills">Hard Skills</h3>
             <div class="skills__line">
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"><img src="assets\htlm.png"></li>
+                        <li class="skills__img"><img src="assets/img/htlm.png"></li>
                         <li class="skills__name"> Html 5</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
+                        <li class="skills__img"> <img src="assets/img/js_icon.png" alt=""></li>
                         <li class="skills__name">Javascript</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
-                        <li class="skills__name">PHP</li>
+                        <li class="skills__img"> <img src="assets/img/git.png" alt=""></li>
+                        <li class="skills__name">Git</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
+                        <li class="skills__img"><img src="assets/img/nodejs_icon.png" alt=""></li>
                         <li class="skills__name">Node JS</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
+                        <li class="skills__img"> <img src="assets/img/react_icon.png" alt=""> </li>
                         <li class="skills__name">React</li>
                     </ul>
                 </div>
-
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
+                        <li class="skills__img"> <img src="assets/img/css_icon.png" alt=""> </li>
                         <li class="skills__name">CSS</li>
                     </ul>
                 </div>
         </div>
+        <!-- Soft skills -->
+        <h3 class="skills__title" id="skills">Soft Skills</h3>
+        <div class="skills__line">
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"><img src="assets/img/estudo.png" alt=""></li>
+                    <li class="skills__name">Estudioso</li>
+                </ul>
+            </div>
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"><img src="assets/img/equipe.png" alt=""></li>
+                    <li class="skills__name">Trabalho em Equipe</li>
+                </ul>
+            </div>
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"><img src="assets/img/respeito.png" alt=""></li>
+                    <li class="skills__name">Respeitoso</li>
+                </ul>
+            </div>
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"><img src="assets/img/empatia.png" alt=""></li>
+                    <li class="skills__name">Empático</li>
+                </ul>
+            </div>
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"><img src="assets/img/dedicado.png" alt=""></li>
+                    <li class="skills__name">Dedicado</li>
+                </ul>
+            </div>
+            <div class="skills__box">
+                <ul>
+                    <li class="skills__img"><img src="assets/img/organizacao.png" alt=""></li>
+                    <li class="skills__name">Organizado</li>
+                </ul>
+            </div>
     </section>
 
 <!-- Sessão de Hobbies -->
@@ -120,56 +175,56 @@
             <div class="hobbies__line">
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"><img src="assets\skate_icon.png"></li>
-                        <li class="hobbies__name"> Andar de skate</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt=""></li>
-                        <li class="hobbies__name">Tocar baixo</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
+                        <li class="hobbies__img"> <img src="assets/img/musica.png" alt=""></li>
                         <li class="hobbies__name">Ouvir música</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"><img src="assets\tv_icon.png" alt=""></li>
-                        <li class="hobbies__name">Assistir séries</li>
+                        <li class="hobbies__img"><img src="assets/img/escrever.png"></li>
+                        <li class="hobbies__name"> Escrever</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
+                        <li class="hobbies__img"> <img src="assets/img/guitar_icon.png" alt=""></li>
+                        <li class="hobbies__name">Tocar violão</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"><img src="assets/img/malhar.png" alt="ilustração atividade física"></li>
+                        <li class="hobbies__name">Atividades físicas</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="assets/img/forkspoon_icon.png" alt=""> </li>
                         <li class="hobbies__name">Cozinhar</li>
                     </ul>
                 </div>
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
-                        <li class="hobbies__name">Tirar fotos</li>
+                        <li class="hobbies__img"> <img src="assets/img/yoga.png" alt=""> </li>
+                        <li class="hobbies__name">Yoga</li>
                     </ul>
                 </div>
         </div>
     </section>
 
     <!-- Sessão de Histórico Acadêmico -->
-    <section class="academic">
+    <section id="#formacao"class="academic">
         <h2 class="academic__title" id="formacao">Formação acadêmica</h2>
         <div class="academic__courses">
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!-- Insira a logo de seu local de formação -->
-                    <li class="academic__courses__item__img"><img src=""></li>
+                    <li class="academic__courses__item__img"><img src="https://www.alura.com.br/assets/img/alura-share.1647533642.png"></li>
                     <li class="academic__courses__item__title"><h4>Análise de dados</h4></li>
                     <li class="academic__courses__item__subtitle"><p>2018 - UFPR</p></li>
                 </ul>
@@ -194,7 +249,7 @@
     </section>
 
     <!-- Sessão de Experiência Profissional/Projetos-->
-    <section class="experience">
+    <section id="xp" class="experience">
         <h2 class="experience__section__title" id="xp">Experiência Profissional</h2>
         <div class="experiencie__box">
             <!-- Insira a logo/captura de seu projeto/trabalho -->
@@ -282,7 +337,7 @@
         </section>
     </div>
     <!-- Script Linkado do seu documento de JavaScript -->
-<script src="validate.js"></script>
+<script src="js/banner.js"></script>
 </body>
 </html>
 

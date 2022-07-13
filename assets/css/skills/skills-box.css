@@ -1,0 +1,13 @@
+.skills__box{
+    background-color: var(--primary-color);
+    display: flex;
+    margin-right: 2rem;
+    min-width: 11rem;
+    scroll-snap-align: start;
+    scroll-snap-align: start;
+}
+.skills__box ul {
+    align-self: flex-end;
+    margin: 1rem;
+    padding: 0;
+}

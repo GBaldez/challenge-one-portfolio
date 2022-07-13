@@ -1,0 +1,21 @@
+section.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--third-color);
+}
+.menu header {
+    display: flex;
+    align-items: center;
+}
+header img {
+ margin:0 .75rem;
+}
+.menu__list {
+    display: flex;
+    align-items: center;
+}
+.menu__list__item {
+    margin-right: 2rem;
+}

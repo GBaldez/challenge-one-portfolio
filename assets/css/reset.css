@@ -1,18 +1,6 @@
-/*CSS Reset / Normalize*/
-/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
-coloque nas sessões indicadas*/
-
-:root{
-    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
-}
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
-    font-family: 'Raleway';
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -38,17 +26,9 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
 
-/*Sessão Menu*/
 
-section.menu{
 
-}
 
-/*Sessão Title*/
-
-section.title{
-
-}
 
 /*Sessão About*/
 
@@ -110,6 +90,9 @@ utilize como referência os breakpoints @media abaixo*/
 @media (min-width: 425px) {
 
 /*Menu*/
+/*hamburguer menu*/
+
+
 
 /*Titulo*/
 
@@ -128,3 +111,4 @@ utilize como referência os breakpoints @media abaixo*/
 /*Footer*/
 
 }
+/* rgba(red,green,blue, opacity) */

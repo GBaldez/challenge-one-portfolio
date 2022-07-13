@@ -1,0 +1,12 @@
+.title {
+    background-color:var(--dark);
+    height: calc(100vh - 56.16px);
+    display: flex;
+}
+.title__container {
+    
+    
+}
+.title__div {
+    
+}

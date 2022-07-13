@@ -1,0 +1,29 @@
+.title__profile {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  display: inline-block;
+  height: 12rem;
+  margin: 2.5rem 0 0 2.5rem; 
+  position: relative;
+  width: 12rem;
+}
+.title__profile::before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  inset: -15px;
+  border:  6px solid var(--dark);
+  border-top-color: var(--third-color);
+  border-bottom-color: var(--third-color);
+  animation: spin 5s linear infinite;
+}
+.title__profile--pic {
+    background-image: url('../../img/me.jpg');
+}
+@keyframes spin {
+  to{
+      transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,18 @@
+.title__container {
+    color: var(--third-color);
+    padding-left: 1rem;
+}
+.title__bio {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+.title__bio span {
+    color: var(--second-color);
+    font-size: 3rem;
+}
+.title__subsection {
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 2rem;  
+}
+

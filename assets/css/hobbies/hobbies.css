@@ -1,0 +1,15 @@
+.hobbies{
+    height: 100vh;
+    padding: 5rem;
+    /* align the children on center */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hobbies__line{
+    display: flex;
+    height: 10rem;
+    /* overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth; */
+}

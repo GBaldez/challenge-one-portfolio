@@ -1,0 +1,14 @@
+.hobbies__box{
+    background-color: var(--third-color);
+    color: var(--second-color);
+    display: flex;
+    margin-right: 2rem;
+    min-width: 11rem;
+    /* scroll-snap-align: start;
+    scroll-snap-align: start; */
+}
+.hobbies__box ul {
+    align-self: flex-end;
+    margin: 1rem;
+    padding: 0;
+}
