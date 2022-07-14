@@ -2,7 +2,7 @@
     font-size: 1.5rem;
     padding: 0 5rem;
 }
-@media (min-width: 425px) {
+@media (max-width: 1200px) {
     .about__paragraph {
         padding: 0 2rem;
     }

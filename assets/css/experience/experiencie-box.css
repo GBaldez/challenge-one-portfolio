@@ -17,7 +17,7 @@
     padding: 1.5rem;    
 }
 
-@media (min-width: 425px) {
+@media (max-width: 1200px) {
     .experiencie__box,
     .experiencie__box:nth-child(odd) {
         flex-direction: column;

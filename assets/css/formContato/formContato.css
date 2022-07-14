@@ -20,7 +20,11 @@
     margin:0 0 1.2rem 0;
 }
 
-@media (min-width: 425px) {
+@media (max-width: 1200px) {
+    .formcontato{
+        display: flex;
+        justify-content:center ;
+    }
     .formcontato--esquerda{
         display: none;
     }

@@ -3,7 +3,7 @@
     height: calc(100vh - 56.16px);  
 }
 
-@media (min-width: 425px) {
+@media (max-width: 1200px) {
     #canvas {
         width: 100%;
     }

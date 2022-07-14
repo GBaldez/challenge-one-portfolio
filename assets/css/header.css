@@ -20,7 +20,7 @@ header img {
     margin-right: 2rem;
 }
 
-@media (min-width: 425px) {
+@media (max-width: 768px) {
     .menu__list__item {
         display: none;
     }
