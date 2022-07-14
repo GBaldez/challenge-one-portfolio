@@ -7,6 +7,7 @@
     --third-color: #bdbfaa;
     --dark: #000;
     --cor-de-fundo: #F5F5F5;
+    --invalid-input: #ff0000;
 }
 body {
     font-family: var(--font);

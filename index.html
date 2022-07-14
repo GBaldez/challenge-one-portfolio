@@ -1,4 +1,4 @@
-d<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
@@ -326,7 +326,7 @@ d<!DOCTYPE html>
                     <form class="formcontato__form">
                         <div class="formcontato__item">
                             <label for="nome">Nome</label>
-                            <input class="formcontato__input" type="text" id="nome">
+                            <input class="formcontato__input" type="text" id="nome" required maxlength="50" pattern="[a-z]*">
                         </div>
                         <div class="formcontato__item">
                             <label for="email">Email</label>
@@ -357,6 +357,7 @@ d<!DOCTYPE html>
     </div>
     <!-- Script Linkado do seu documento de JavaScript -->
 <script src="js/banner.js"></script>
+<script src="js/validate.js"></script>
 </body>
 </html>
 

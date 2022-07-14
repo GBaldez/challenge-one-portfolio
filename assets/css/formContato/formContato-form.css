@@ -1,12 +1,8 @@
-.formcontato__form{
-    display: flex;
-    flex-direction: column;
-}
 .formcontato__input,
-.formcontato__textarea{
+.formcontato__textarea {
     border-width: 0 0 4px;
     height: 3rem;
-    margin: 1.2rem 0;
+    margin: 1rem 0 .5rem;
     outline: none;
     padding: 1rem;
     padding-bottom: 0;
@@ -23,22 +19,43 @@
     background-color: var(--third-color);
     border: none;
     color: var(--primary-color);
-    margin-top:.75rem;
+    margin-top:1rem;
     padding: 1rem;
     width: 12rem;
 }
 .formcontato__item {
     position: relative;
-    display: flex;
-    align-content: space-between;
 }
 label {
-    position: absolute;
-    top: 1.5rem;
     left: 1rem;
     margin-bottom: 1rem;
+    position: absolute;
+    top: 1.5rem;
 }
 .formcontato__item:focus-within label {
     color: var(--primary-color);
-       
+}
+.error {
+    animation: shake 300ms;
+    outline: 2px solid var(--invalid-input);
+    outline-offset: -2px;
+    border: none;
+}
+@keyframes shake {
+    25% {
+        transform: translateX(4px);
+    }
+    50% {
+        transform: translateX(-4px);
+    }
+    75% {
+        transform: translateX(4px);
+    }
+} 
+.error-message {
+    color: var(--invalid-input);
+    left: 1rem;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 0;
 }
