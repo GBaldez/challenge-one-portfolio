@@ -4,7 +4,7 @@
 <p align="center" >
      <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/168887837-b6d26532-6782-48dc-92eb-e48bf6c57a15.png">
 </p>
-<h2> Você pode ver o resultado aqui: <a src="https://gbaldez.github.io/challenge-one-portfolio/">Site</a> ⭐</h2>
+<h2> Você pode ver o resultado aqui: <a href="https://gbaldez.github.io/challenge-one-portfolio/">Site</a> ⭐</h2>
 
 ###  Sobre o projeto:
 ---
