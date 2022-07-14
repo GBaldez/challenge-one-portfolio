@@ -1,0 +1,7 @@
+.footer__rodape {
+    display: flex;
+    align-items: center;
+}
+.footer__rodape p {
+    margin-left: 2rem;
+}

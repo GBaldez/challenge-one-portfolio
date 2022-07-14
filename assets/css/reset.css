@@ -29,46 +29,6 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
 
-
-
-
-
-/*Sessão About*/
-
-section.about{
-
-}
-
-/*Sessão Hobbies*/
-
-section.hobbies{
-    
-}
-
-/* Experiência Acadêmica*/
-
-section.academic{
-
-}
-
-/* experiência*/
-
-section.experience{
-
-}
-
-/*Contato*/
-
-section.formcontato{
-
-}
-
-/*footeer*/
-
-section.footer{
-   
-}
-
 /* Chegou a hora de se desafiar com a responsividade, 
 utilize como referência os breakpoints @media abaixo*/
 
@@ -89,29 +49,4 @@ utilize como referência os breakpoints @media abaixo*/
 
 }
 
-/*Mobile*/
-@media (min-width: 425px) {
-
-/*Menu*/
-/*hamburguer menu*/
-
-
-
-/*Titulo*/
-
-/*Sessão sobre*/
-
-/*Skills*/
-
-/*Hobbies*/
- 
-/*Formação Acadêmica*/
-
-/*Experiência Profissional*/
-
- /*Contato*/
-
-/*Footer*/
-
-}
 /* rgba(red,green,blue, opacity) */

@@ -16,3 +16,22 @@
     align-self: center;
     padding: 1.5rem;    
 }
+
+@media (min-width: 425px) {
+    .experiencie__box,
+    .experiencie__box:nth-child(odd) {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .experience__img {
+        height: auto;
+        margin-bottom:1rem;
+        width: 100%;
+    }
+    .experience__info {
+        align-self: center;
+        padding: 1.5rem;    
+    }
+    
+}

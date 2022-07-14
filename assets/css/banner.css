@@ -1,6 +1,10 @@
 #canvas {
     width: 700px;
-    height: calc(100vh - 56.16px);
-    
-    
+    height: calc(100vh - 56.16px);  
+}
+
+@media (min-width: 425px) {
+    #canvas {
+        width: 100%;
+    }
 }

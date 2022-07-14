@@ -1,5 +1,7 @@
 .academic__courses{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .academic__courses__box{
     color: var(--primary-color);

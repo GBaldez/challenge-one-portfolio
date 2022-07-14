@@ -1,7 +1,6 @@
 .hobbies{
     height: 100vh;
     padding: 5rem;
-    /* align the children on center */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +8,17 @@
 .hobbies__line{
     display: flex;
     height: 10rem;
-    /* overflow: auto;
+    overflow: auto;
     scroll-snap-type: x mandatory;
-    scroll-behavior: smooth; */
+    scroll-behavior: smooth;
+}
+.hobbies__line::-webkit-scrollbar {
+    height: .3rem;
+}
+.hobbies__line::-webkit-scrollbar-thumb {
+    background-color: var(--third-color);
+    border-radius: 50%;
+}
+.hobbies__line::-webkit-scrollbar-track {
+    background-color:transparent;
 }

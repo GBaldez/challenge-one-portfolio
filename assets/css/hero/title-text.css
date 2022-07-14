@@ -16,3 +16,20 @@
     padding-top: 2rem;  
 }
 
+@media (min-width: 425px) {
+    .title__bio {
+        font-size: 1.5rem;
+    }
+    .title__bio span {
+        font-size: 2rem;
+    }
+    .title__container {
+        display: flex;
+        flex-direction: column;
+        line-height: 2rem;
+       
+    }
+    .title__subsection {
+        font-size: 1rem;
+    }
+}

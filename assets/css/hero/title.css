@@ -3,10 +3,15 @@
     height: calc(100vh - 56.16px);
     display: flex;
 }
-.title__container {
-    
-    
-}
-.title__div {
-    
+@media (min-width: 425px) {
+    .title {
+        flex-direction: column;
+        height: auto;
+    }
+    .title__div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

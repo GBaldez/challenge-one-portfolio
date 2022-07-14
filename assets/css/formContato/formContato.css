@@ -20,3 +20,15 @@
     margin:0 0 1.2rem 0;
 }
 
+@media (min-width: 425px) {
+    .formcontato--esquerda{
+        display: none;
+    }
+    .formcontato__contacto {
+        padding: 2rem;
+    }
+    .formcontato__text {
+        padding-left: 0;
+    }
+    
+}

@@ -59,3 +59,10 @@ label {
     position: absolute;
     top: 0;
 }
+@media (min-width: 425px){
+    .formcontato__input,
+    .formcontato__textarea {
+        margin: 1rem;
+        padding: 0;
+}    
+}
