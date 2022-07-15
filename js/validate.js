@@ -8,6 +8,7 @@ const msgInput = document.getElementById('mensagem');
 const button = document.querySelector('.formcontato__botao');
 
 const msgError = (el, msg, i) => {
+    if(el.classList.contains('error')) return;
     el.classList.add('error');
     const errorMessage = document.createElement('span');
     errorMessage.classList.add('error-message');
@@ -19,7 +20,6 @@ const removeErrStyle = (el, i) => {
         el.classList.remove('error');
         inputField[i].children[2].remove();
         inputField[i].children[0].style.color = 'var(--second-color)';
-        button.disabled = true;
     }
 
 const validateNameAndSubject = (input,i) => {
@@ -29,9 +29,9 @@ const validateNameAndSubject = (input,i) => {
         msgError(input, 'Esse campo não pode ficar em branco', i)
      } else if(!input.value.match(/^[a-zA-Z\s]+$/)){
         msgError(input, 'Somente letras neste campo', i);
-     }  else {
+     }  else if(input.classList.contains('error')){
             removeErrStyle(input, i);
-        }
+    }
     }
 
 const validateEmail = () => {
@@ -69,10 +69,15 @@ form.addEventListener('focusout', (e) => {
 }
 );
 
-button.addEventListener('click', () => {
-        validateNameAndSubject(nameInput, 0);
-        validateEmail();
-        validateNameAndSubject(subjectInput, 2);
-        validateMsg();
-});
-    
+
+const formValidation = () => {
+    if(nameInput.value.length === 0 || emailInput.value.length === 0 || subjectInput.value.length === 0 || msgInput.value.length === 0){
+        alert('Preencha todos os campos');
+        button.disabled = true;
+        console.log(button.disabled);
+    }
+    button.disabled = false;
+}
+
+button.addEventListener('click', formValidation);
+

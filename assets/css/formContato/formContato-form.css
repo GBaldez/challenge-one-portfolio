@@ -62,7 +62,11 @@ label {
 @media (max-width: 1200px) {
     .formcontato__input,
     .formcontato__textarea {
-        margin: 1rem;
-        padding: 0;
-}    
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .formcontato__form {
+       display: flex;
+    flex-direction: column;
+    }    
 }
