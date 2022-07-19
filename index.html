@@ -333,19 +333,19 @@
                     <h2 class="formcontato__title">Contato</h2>
                     <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
                     <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
-                    <form class="formcontato__form">
+                    <form class="formcontato__form" action="https://formsubmit.co/your@email.com" method="POST">
                         <div class="formcontato__item">
                             <label for="nome">Nome</label>
-                            <input class="formcontato__input" type="text" id="nome" required maxlength="50">
+                            <input class="formcontato__input" type="text" id="nome" name="nome" required maxlength="50">
                         </div>
                         <div class="formcontato__item">
                             <label for="email">Email</label>
-                            <input class="formcontato__input" type="email" id="email">
+                            <input class="formcontato__input" type="email" id="email" name="email">
                         </div>
 
                         <div class="formcontato__item">
                             <label for="assunto">Assunto</label>
-                            <input class="formcontato__input" type="text" id="assunto">
+                            <input class="formcontato__input" type="text" id="assunto" name="assunto">
                         </div>
                         <div class="formcontato__item">
                             <label for="mensagem">Escreva sua mensagem aqui</label>
